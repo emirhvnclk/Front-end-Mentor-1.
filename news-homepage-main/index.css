@@ -1,0 +1,157 @@
+    body {
+        font-family: 'Inter', sans-serif;
+        width: 1440px;
+        margin:auto;
+        margin-top: 100px;
+    }
+
+    .attribution { 
+        font-size: 11px; text-align: center; 
+    }
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+                /* HEADER */
+
+    nav {
+        float: right;
+    }
+
+         ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+           }
+
+           li {
+             float: left;
+           }
+
+           li a {
+             display: block;
+             color: rgb(0, 0, 0);
+             text-align: center;
+             padding: 14px 25px;
+             text-decoration: none;
+           }
+
+           li a:hover {
+             color: rgb(175, 42, 42);
+           }
+       
+
+                /* BOX-M */
+
+    .box-m {
+        width: 1000x;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    button {
+      width: 170px;
+      height: 45px;
+      margin-left: 160px;
+      letter-spacing: 5px;
+      border: none;
+      background-color: hsl(5, 85%, 63%);
+      margin-top: 0;
+      font-weight: 800;
+      color: whitesmoke;
+    }
+
+    button:hover {
+      background-color: hsl(240, 100%, 5%);
+    }
+
+    .box-m p {
+      padding: 30px;
+      font-size: large;
+      margin-left: 130px;
+      line-height:168% ;
+
+    }
+
+    h1 {
+      font-size:65px;
+    }
+
+                        /*** BOX-R ***/
+    
+    .box-r {
+      margin:50px 25px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 30px;
+      float:right;
+      background-color:hsl(240, 100%, 5%); 
+    }
+
+    .box-r h3 {
+      color:white;
+      font-size: 23px;
+
+    }
+
+    .box-r h3:hover {
+      color:hsl(35, 77%, 62%);;
+    }
+
+    .box-r p {
+      color: hsl(36, 100%, 99%);
+      line-height: 150%;
+    }
+
+    h2 {
+      color:hsl(35, 77%, 62%);
+      font-size: 50px;
+    }
+    
+             /***** FOOTER *****/
+footer {
+  display: flex;
+  
+} 
+
+
+
+
+
+.card-l h4, .card-m h4, .card-r h4  {
+color: hsl(233, 8%, 79%);
+font-size: 30px;
+} 
+
+.card-l h5, .card-m h5, .card-r h5 {
+  color:hsl(240, 100%, 5%);
+  font-size: 20px;
+}
+
+.card-l h5:hover, .card-m h5:hover, .card-r h5:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.card-l p, .card-m p, .card-r p {
+  color:hsl(233, 8%, 79%);
+  font-size: 15px;
+  float: left;
+}
+
+.card-l {
+  margin-right: 70px;
+} 
+
+
+
+.card-m {
+  margin-right: 140px;
+  
+}
+
+
+
+
+ 
